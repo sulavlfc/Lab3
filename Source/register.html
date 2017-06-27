@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="application/javascript" src="register.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <h2>Please Register Your Account</h2>
+
+        <form class="form-horizontal">
+            <fieldset>
+
+                <!-- Form Name -->
+                <legend>Register Here</legend>
+
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="firstName">First Name</label>
+                    <div class="col-md-4">
+                        <input id="firstName" name="textinput" placeholder="First Name" class="form-control input-md" required="" type="text">
+                        <span class="help-block"> </span>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="lastName">Last Name</label>
+                    <div class="col-md-4">
+                        <input id="lastName" name="textinput" placeholder="Last Name" class="form-control input-md" required="" type="text">
+                        <span class="help-block"> </span>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="email">Email</label>
+                    <div class="col-md-4">
+                        <input id="email" name="textinput" placeholder="Email" class="form-control input-md" required="" type="text">
+                        <span class="help-block"> </span>
+                    </div>
+                </div>
+
+                <div class = "error" style="display: none; position:relative ; left:80vh;"><p>Passwords do not match</p></div>
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="password">Password</label>
+                    <div class="col-md-4">
+                        <input id="password" type="password" placeholder="Password" class="form-control input-md" required="" >
+                        <span class="help-block"> </span>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="cpassword">Confirm Password</label>
+                    <div class="col-md-4">
+                        <input id="cpassword" type="password" placeholder="Confirm your Password" class="form-control input-md" required="" type="text">
+                        <span class="help-block"> </span>
+                    </div>
+                </div>
+
+                <!-- Button -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="submit"> </label>
+                    <div class="col-md-4">
+
+
+
+                    </div>
+                </div>
+
+            </fieldset>
+        </form>
+        <button id="submit" style="position: relative; left: 80vh;" name="singlebutton" > Submit</button>
+    </div>
+</div>
+
+</body>
+</html>
